@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222B17F60F1D4009008B1A46 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A403830CAD7B9400E5299E /* Carbon.framework */; };
+		22E3848B102867B0002000A9 /* TTGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22E38487102867B0002000A9 /* TTGraphics.cpp */; };
+		22E3848C102867B0002000A9 /* TTGraphicsContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22E38488102867B0002000A9 /* TTGraphicsContext.cpp */; };
+		22E3848D102867B0002000A9 /* TTGraphicsSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22E38489102867B0002000A9 /* TTGraphicsSurface.cpp */; };
+		22E3848E102867B0002000A9 /* TTGraphicsWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22E3848A102867B0002000A9 /* TTGraphicsWindow.cpp */; };
+		22E384A0102867DF002000A9 /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E3849E102867DF002000A9 /* libcairo.a */; };
+		22E384A1102867DF002000A9 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E3849F102867DF002000A9 /* libpixman-1.a */; };
+		22E384DA1028694B002000A9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E384D91028694B002000A9 /* Cocoa.framework */; };
+		22E385951028697B002000A9 /* JamomaDSP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E385941028697B002000A9 /* JamomaDSP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2227748E0EF1BFF100CA7476 /* JamomaGraphics.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JamomaGraphics.xcconfig; sourceTree = "<group>"; };
+		222B18000F1D4009008B1A46 /* JamomaGraphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JamomaGraphics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A403830CAD7B9400E5299E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		22E384841028679E002000A9 /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		22E38487102867B0002000A9 /* TTGraphics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = TTGraphics.cpp; sourceTree = "<group>"; };
+		22E38488102867B0002000A9 /* TTGraphicsContext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = TTGraphicsContext.cpp; sourceTree = "<group>"; };
+		22E38489102867B0002000A9 /* TTGraphicsSurface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = TTGraphicsSurface.cpp; sourceTree = "<group>"; };
+		22E3848A102867B0002000A9 /* TTGraphicsWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = TTGraphicsWindow.cpp; sourceTree = "<group>"; };
+		22E38490102867B8002000A9 /* TTGraphicsContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGraphicsContext.h; sourceTree = "<group>"; };
+		22E38491102867B8002000A9 /* TTGraphicsSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGraphicsSurface.h; sourceTree = "<group>"; };
+		22E38492102867B8002000A9 /* TTGraphicsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGraphicsWindow.h; sourceTree = "<group>"; };
+		22E38494102867C9002000A9 /* cairo-deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cairo-deprecated.h"; sourceTree = "<group>"; };
+		22E38495102867C9002000A9 /* cairo-features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cairo-features.h"; sourceTree = "<group>"; };
+		22E38496102867C9002000A9 /* cairo-ft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cairo-ft.h"; sourceTree = "<group>"; };
+		22E38497102867C9002000A9 /* cairo-pdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cairo-pdf.h"; sourceTree = "<group>"; };
+		22E38498102867C9002000A9 /* cairo-ps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cairo-ps.h"; sourceTree = "<group>"; };
+		22E38499102867C9002000A9 /* cairo-quartz-image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cairo-quartz-image.h"; sourceTree = "<group>"; };
+		22E3849A102867C9002000A9 /* cairo-quartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cairo-quartz.h"; sourceTree = "<group>"; };
+		22E3849B102867C9002000A9 /* cairo-svg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cairo-svg.h"; sourceTree = "<group>"; };
+		22E3849C102867C9002000A9 /* cairo-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cairo-version.h"; sourceTree = "<group>"; };
+		22E3849D102867C9002000A9 /* cairo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cairo.h; sourceTree = "<group>"; };
+		22E3849E102867DF002000A9 /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcairo.a; path = "cairo-lib/libcairo.a"; sourceTree = "<group>"; };
+		22E3849F102867DF002000A9 /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpixman-1.a"; path = "cairo-lib/libpixman-1.a"; sourceTree = "<group>"; };
+		22E384D91028694B002000A9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		22E385941028697B002000A9 /* JamomaDSP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JamomaDSP.framework; path = ../../DSP/library/build/UninstalledProducts/JamomaDSP.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222B17F50F1D4009008B1A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222B17F60F1D4009008B1A46 /* Carbon.framework in Frameworks */,
+				22E384A0102867DF002000A9 /* libcairo.a in Frameworks */,
+				22E384A1102867DF002000A9 /* libpixman-1.a in Frameworks */,
+				22E384DA1028694B002000A9 /* Cocoa.framework in Frameworks */,
+				22E385951028697B002000A9 /* JamomaDSP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222B18000F1D4009008B1A46 /* JamomaGraphics.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* MaxObject */ = {
+			isa = PBXGroup;
+			children = (
+				2227748E0EF1BFF100CA7476 /* JamomaGraphics.xcconfig */,
+				22E384841028679E002000A9 /* prefix.pch */,
+				22E3848F102867B8002000A9 /* includes */,
+				22E38486102867B0002000A9 /* source */,
+				22E38493102867C9002000A9 /* cairo */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = MaxObject;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				22E3849E102867DF002000A9 /* libcairo.a */,
+				22E3849F102867DF002000A9 /* libpixman-1.a */,
+				22A403830CAD7B9400E5299E /* Carbon.framework */,
+				22E384D91028694B002000A9 /* Cocoa.framework */,
+				22E385941028697B002000A9 /* JamomaDSP.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		22E38486102867B0002000A9 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				22E38487102867B0002000A9 /* TTGraphics.cpp */,
+				22E38488102867B0002000A9 /* TTGraphicsContext.cpp */,
+				22E38489102867B0002000A9 /* TTGraphicsSurface.cpp */,
+				22E3848A102867B0002000A9 /* TTGraphicsWindow.cpp */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		22E3848F102867B8002000A9 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				22E38490102867B8002000A9 /* TTGraphicsContext.h */,
+				22E38491102867B8002000A9 /* TTGraphicsSurface.h */,
+				22E38492102867B8002000A9 /* TTGraphicsWindow.h */,
+			);
+			path = includes;
+			sourceTree = "<group>";
+		};
+		22E38493102867C9002000A9 /* cairo */ = {
+			isa = PBXGroup;
+			children = (
+				22E38494102867C9002000A9 /* cairo-deprecated.h */,
+				22E38495102867C9002000A9 /* cairo-features.h */,
+				22E38496102867C9002000A9 /* cairo-ft.h */,
+				22E38497102867C9002000A9 /* cairo-pdf.h */,
+				22E38498102867C9002000A9 /* cairo-ps.h */,
+				22E38499102867C9002000A9 /* cairo-quartz-image.h */,
+				22E3849A102867C9002000A9 /* cairo-quartz.h */,
+				22E3849B102867C9002000A9 /* cairo-svg.h */,
+				22E3849C102867C9002000A9 /* cairo-version.h */,
+				22E3849D102867C9002000A9 /* cairo.h */,
+			);
+			name = cairo;
+			path = "cairo-lib/cairo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222B177B0F1D4009008B1A46 /* JamomaGraphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222B17FD0F1D4009008B1A46 /* Build configuration list for PBXNativeTarget "JamomaGraphics" */;
+			buildPhases = (
+				222B17B90F1D4009008B1A46 /* Resources */,
+				222B17BA0F1D4009008B1A46 /* Sources */,
+				222B17F50F1D4009008B1A46 /* Frameworks */,
+				22CC01940FDFDF8C0024A915 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JamomaGraphics;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = MaxObject;
+			productReference = 222B18000F1D4009008B1A46 /* JamomaGraphics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "JamomaGraphics" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* MaxObject */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222B177B0F1D4009008B1A46 /* JamomaGraphics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222B17B90F1D4009008B1A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22CC01940FDFDF8C0024A915 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/rm -rfv \"/Library/Frameworks/$PRODUCT_NAME.framework\"\n/bin/cp -R \"$TARGET_BUILD_DIR/$PRODUCT_NAME.framework\" \"/Library/Frameworks\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222B17BA0F1D4009008B1A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E3848B102867B0002000A9 /* TTGraphics.cpp in Sources */,
+				22E3848C102867B0002000A9 /* TTGraphicsContext.cpp in Sources */,
+				22E3848D102867B0002000A9 /* TTGraphicsSurface.cpp in Sources */,
+				22E3848E102867B0002000A9 /* TTGraphicsWindow.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91B208733DA50010E9CD /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.4;
+			};
+			name = Development;
+		};
+		1DEB91B308733DA50010E9CD /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.4;
+			};
+			name = Deployment;
+		};
+		222B17FE0F1D4009008B1A46 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2227748E0EF1BFF100CA7476 /* JamomaGraphics.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../DSP/library/build/UninstalledProducts\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = TTGRAPHICS_LIBRARY;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_SHADOW = YES;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-deprecated",
+				);
+				SKIP_INSTALL = YES;
+			};
+			name = Development;
+		};
+		222B17FF0F1D4009008B1A46 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2227748E0EF1BFF100CA7476 /* JamomaGraphics.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEPLOYMENT_LOCATION = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../DSP/library/build/UninstalledProducts\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = TTGRAPHICS_LIBRARY;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_SHADOW = YES;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-deprecated",
+				);
+				SKIP_INSTALL = YES;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "JamomaGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Development */,
+				1DEB91B308733DA50010E9CD /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		222B17FD0F1D4009008B1A46 /* Build configuration list for PBXNativeTarget "JamomaGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222B17FE0F1D4009008B1A46 /* Development */,
+				222B17FF0F1D4009008B1A46 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

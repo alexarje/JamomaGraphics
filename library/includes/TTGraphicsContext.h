@@ -12,7 +12,7 @@
 
 #include "TTBlueAPI.h"
 
-#ifdef TTGRAPHICS_EXTENSION
+#ifdef TTGRAPHICS_LIBRARY
 #include "cairo.h"
 #endif
 
@@ -69,7 +69,7 @@ class TTGraphicsContext : public TTObject {
 public:
 	
 	// we do this so that external objects do not have to know about cairo
-#ifdef TTGRAPHICS_EXTENSION
+#ifdef TTGRAPHICS_LIBRARY
 	cairo_t*			cairoContext;
 #else
 	TTPtr				cairoContext;

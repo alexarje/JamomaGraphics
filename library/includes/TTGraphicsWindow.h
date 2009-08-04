@@ -14,7 +14,7 @@
 
 #ifdef TT_PLATFORM_MAC
 #include <Cocoa/Cocoa.h>
-#ifdef TTGRAPHICS_EXTENSION
+#ifdef TTGRAPHICS_LIBRARY
 #include "cairo-quartz.h"
 #endif
 #else
