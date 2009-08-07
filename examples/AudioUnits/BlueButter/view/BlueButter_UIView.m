@@ -1,6 +1,5 @@
 #import "BlueButter_UIView.h"
 
-
 enum {
 	kFilterParam_CutoffFrequency = 0,
 	kFilterParam_Resonance = 1

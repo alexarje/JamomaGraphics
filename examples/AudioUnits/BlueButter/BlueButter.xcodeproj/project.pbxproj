@@ -11,10 +11,11 @@
 		221402110FE57B3F000E4AF6 /* BlueButter_UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214020B0FE57B3F000E4AF6 /* BlueButter_UIView.m */; };
 		221402120FE57B3F000E4AF6 /* BlueButter_ViewFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2214020C0FE57B3F000E4AF6 /* BlueButter_ViewFactory.h */; };
 		221402130FE57B3F000E4AF6 /* BlueButter_ViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214020D0FE57B3F000E4AF6 /* BlueButter_ViewFactory.m */; };
-		221402C10FE587E0000E4AF6 /* TTGraphics.ttdylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 221402C00FE587E0000E4AF6 /* TTGraphics.ttdylib */; };
 		221402D30FE58C36000E4AF6 /* mypainter.h in Headers */ = {isa = PBXBuildFile; fileRef = 221402D20FE58C36000E4AF6 /* mypainter.h */; };
-		221403240FE591A0000E4AF6 /* TTGraphicsContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 221403230FE591A0000E4AF6 /* TTGraphicsContext.h */; };
-		22B855A50FCDDA5E002D3BCE /* JamomaDSP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B855A40FCDDA5E002D3BCE /* JamomaDSP.framework */; };
+		22CD16D1102BD60E003CFFAF /* TTGraphicsContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CD16D0102BD60E003CFFAF /* TTGraphicsContext.h */; };
+		22CD16D5102BD646003CFFAF /* JamomaDSP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CD16D4102BD646003CFFAF /* JamomaDSP.framework */; };
+		22CD16D8102BD65C003CFFAF /* JamomaGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CD16D7102BD65C003CFFAF /* JamomaGraphics.framework */; };
+		22CD16EA102BD6DF003CFFAF /* TTBlueAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CD16E9102BD6DF003CFFAF /* TTBlueAPI.h */; };
 		22FA5B110FD5D54100A451BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA5B100FD5D54100A451BC /* Cocoa.framework */; };
 		22FA5B5E0FD5D7C300A451BC /* BlueButter.component in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D01CCD20486CAD60068D4B7 /* BlueButter.component */; };
 		22FA5B8B0FD5D92500A451BC /* CocoaView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22FA5B8A0FD5D92500A451BC /* CocoaView.nib */; };
@@ -79,10 +80,11 @@
 		2214020B0FE57B3F000E4AF6 /* BlueButter_UIView.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = BlueButter_UIView.m; path = view/BlueButter_UIView.m; sourceTree = "<group>"; };
 		2214020C0FE57B3F000E4AF6 /* BlueButter_ViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlueButter_ViewFactory.h; path = view/BlueButter_ViewFactory.h; sourceTree = "<group>"; };
 		2214020D0FE57B3F000E4AF6 /* BlueButter_ViewFactory.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = BlueButter_ViewFactory.m; path = view/BlueButter_ViewFactory.m; sourceTree = "<group>"; };
-		221402C00FE587E0000E4AF6 /* TTGraphics.ttdylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = TTGraphics.ttdylib; path = "/Library/Application Support/TTBlue/Extensions/TTGraphics.ttdylib"; sourceTree = "<absolute>"; };
 		221402D20FE58C36000E4AF6 /* mypainter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mypainter.h; path = view/mypainter.h; sourceTree = "<group>"; };
-		221403230FE591A0000E4AF6 /* TTGraphicsContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTGraphicsContext.h; path = ../../../extensions/TTGraphics/TTGraphicsContext.h; sourceTree = SOURCE_ROOT; };
-		22B855A40FCDDA5E002D3BCE /* JamomaDSP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JamomaDSP.framework; path = ../../../library/build/UninstalledProducts/JamomaDSP.framework; sourceTree = SOURCE_ROOT; };
+		22CD16D0102BD60E003CFFAF /* TTGraphicsContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTGraphicsContext.h; path = ../../../library/includes/TTGraphicsContext.h; sourceTree = SOURCE_ROOT; };
+		22CD16D4102BD646003CFFAF /* JamomaDSP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JamomaDSP.framework; path = ../../../../DSP/library/build/UninstalledProducts/JamomaDSP.framework; sourceTree = SOURCE_ROOT; };
+		22CD16D7102BD65C003CFFAF /* JamomaGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JamomaGraphics.framework; path = ../../../library/build/UninstalledProducts/JamomaGraphics.framework; sourceTree = SOURCE_ROOT; };
+		22CD16E9102BD6DF003CFFAF /* TTBlueAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTBlueAPI.h; path = ../../../../DSP/library/includes/TTBlueAPI.h; sourceTree = SOURCE_ROOT; };
 		22FA5ADE0FD5CFEC00A451BC /* FilterDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterDemo_Prefix.pch; sourceTree = "<group>"; };
 		22FA5B100FD5D54100A451BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		22FA5B8A0FD5D92500A451BC /* CocoaView.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = CocoaView.nib; sourceTree = "<group>"; };
@@ -140,9 +142,9 @@
 				8BA05AFC072074E100365D66 /* AudioToolbox.framework in Frameworks */,
 				8BA05AFD072074E100365D66 /* AudioUnit.framework in Frameworks */,
 				8BA05B02072074F900365D66 /* CoreServices.framework in Frameworks */,
-				22B855A50FCDDA5E002D3BCE /* JamomaDSP.framework in Frameworks */,
 				22FA5B110FD5D54100A451BC /* Cocoa.framework in Frameworks */,
-				221402C10FE587E0000E4AF6 /* TTGraphics.ttdylib in Frameworks */,
+				22CD16D5102BD646003CFFAF /* JamomaDSP.framework in Frameworks */,
+				22CD16D8102BD65C003CFFAF /* JamomaGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,7 @@
 		089C166AFE841209C02AAC07 /* BlueButter */ = {
 			isa = PBXGroup;
 			children = (
+				22CD16E9102BD6DF003CFFAF /* TTBlueAPI.h */,
 				22FA5ADE0FD5CFEC00A451BC /* FilterDemo_Prefix.pch */,
 				08FB77ADFE841716C02AAC07 /* Source */,
 				089C167CFE841241C02AAC07 /* Resources */,
@@ -164,9 +167,9 @@
 		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				221402C00FE587E0000E4AF6 /* TTGraphics.ttdylib */,
+				22CD16D7102BD65C003CFFAF /* JamomaGraphics.framework */,
+				22CD16D4102BD646003CFFAF /* JamomaDSP.framework */,
 				22FA5B100FD5D54100A451BC /* Cocoa.framework */,
-				22B855A40FCDDA5E002D3BCE /* JamomaDSP.framework */,
 				8B5C7FBF076FB2C200A15F61 /* CoreAudio.framework */,
 				8BA05B01072074F900365D66 /* CoreServices.framework */,
 				8BA05AF9072074E100365D66 /* AudioToolbox.framework */,
@@ -210,7 +213,7 @@
 		22FA5AC80FD5CF9100A451BC /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				221403230FE591A0000E4AF6 /* TTGraphicsContext.h */,
+				22CD16D0102BD60E003CFFAF /* TTGraphicsContext.h */,
 				221402D20FE58C36000E4AF6 /* mypainter.h */,
 				2214020A0FE57B3F000E4AF6 /* BlueButter_UIView.h */,
 				2214020B0FE57B3F000E4AF6 /* BlueButter_UIView.m */,
@@ -324,7 +327,8 @@
 				221402100FE57B3F000E4AF6 /* BlueButter_UIView.h in Headers */,
 				221402120FE57B3F000E4AF6 /* BlueButter_ViewFactory.h in Headers */,
 				221402D30FE58C36000E4AF6 /* mypainter.h in Headers */,
-				221403240FE591A0000E4AF6 /* TTGraphicsContext.h in Headers */,
+				22CD16D1102BD60E003CFFAF /* TTGraphicsContext.h in Headers */,
+				22CD16EA102BD6DF003CFFAF /* TTBlueAPI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,9 +443,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../library/build/UninstalledProducts\"",
+					"\"$(SRCROOT)/../../../../DSP/library/build/UninstalledProducts\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = 4.0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +468,7 @@
 				OTHER_LDFLAGS = "-bundle";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Examples/CoreAudio/AudioUnits/AUPublic/AUBase\"";
 				PRODUCT_NAME = BlueButter;
+				USER_HEADER_SEARCH_PATHS = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -479,8 +486,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../library/build/UninstalledProducts\"",
+					"\"$(SRCROOT)/../../../../DSP/library/build/UninstalledProducts\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_VERSION = 4.0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -501,6 +510,7 @@
 				OTHER_LDFLAGS = "-bundle";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Examples/CoreAudio/AudioUnits/AUPublic/AUBase\"";
 				PRODUCT_NAME = BlueButter;
+				USER_HEADER_SEARCH_PATHS = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
