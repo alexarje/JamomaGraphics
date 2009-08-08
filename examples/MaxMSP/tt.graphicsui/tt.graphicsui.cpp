@@ -2,7 +2,7 @@
  *	tt.graphicsui
  *	External object for Max/MSP
  *	Draw graphics in a UI object
- *	Example project for Jamoma DSP
+ *	Example project for Jamoma Graphics
  *	Copyright © 2009 by Timothy Place
  * 
  * License: This code is licensed under the terms of the GNU LGPL
@@ -13,10 +13,10 @@
 #include "ext_obex.h"
 #include "ext_user.h"
 #include "ext_common.h"
-#include "jpatcher_api.h"	// jpatcher_api.h must come before z_dsp.h
+#include "jpatcher_api.h"			// jpatcher_api.h must come before z_dsp.h
 #include "jgraphics.h"
 #include "TTClassWrapperMax.h"
-#include "TTGraphicsContext.h"
+#include "TTGraphics.h"				// Jamoma Graphics API
 #include "mypainter.h"
 
 
@@ -48,7 +48,7 @@ int main(void)
 	ClassPtr	c;
 	long		flags = 0;
 	
-	TTBlueInit();
+	TTGraphicsInit();
 	TTClassRegister(TT("MyPainter"), "graphics", &instantiateMyPainter);
 
 	common_symbols_init();	

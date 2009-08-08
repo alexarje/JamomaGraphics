@@ -2,7 +2,7 @@
  *	tt.graphics
  *	External object for Max/MSP
  *	Draw graphics in a Window
- *	Example project for Jamoma DSP
+ *	Example project for Jamoma Graphics
  *	Copyright © 2009 by Timothy Place
  * 
  * License: This code is licensed under the terms of the GNU LGPL
@@ -10,7 +10,7 @@
  */
 
 #include "TTClassWrapperMax.h"
-#include "TTGraphicsContext.h"
+#include "TTGraphics.h"
 #define thisTTClass TTGraphicsExample
 
 
@@ -132,7 +132,7 @@ TTObject* instantiateTTGraphicsExample(TTSymbolPtr className, TTValue& arguments
 int TTCLASSWRAPPERMAX_EXPORT main(void)
 {
 	// First, we have to register our custom subclass with the TTBlue framework.
-	TTBlueInit();
+	TTGraphicsInit();
 	TTClassRegister(TT("TTGraphicsExample"), "graphics", &instantiateTTGraphicsExample);
 	
 	// Then we are able to wrap it as a Max class.
