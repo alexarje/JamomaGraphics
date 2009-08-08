@@ -8,16 +8,31 @@
  */
 
 #include "TTFoundationAPI.h"
+#include "TTGraphics.h"
 #include "TTGraphicsWindow.h"
 #include "TTGraphicsContext.h"
 #include "TTGraphicsSurface.h"
 
 
+static bool TTGraphicsHasInitialized = false;
+
+
 void TTGraphicsInit()
 {
-	TTFoundationInit();
-	TTGraphicsWindow::registerClass();
-	TTGraphicsContext::registerClass();
-	TTGraphicsSurface::registerClass();	
+	if(!TTGraphicsHasInitialized){
+		TTGraphicsHasInitialized = true;
+
+		TTFoundationInit();
+		TTGraphicsWindow::registerClass();
+		TTGraphicsContext::registerClass();
+		TTGraphicsSurface::registerClass();	
+		
+#ifdef TT_DEBUG
+		TTLogMessage("JamomaGraphics -- Version %s -- Debugging Enabled\n", TTGRAPHICS_VERSION_STRING);
+#else
+		TTLogMessage("JamomaGraphics -- Version %s\n", TTGRAPHICS_VERSION_STRING);
+#endif
+		
+	}
 }
 

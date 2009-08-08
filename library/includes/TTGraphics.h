@@ -13,6 +13,10 @@
 #include "TTFoundationAPI.h"
 #include "TTGraphicsContext.h"
 
+
+#define TTGRAPHICS_VERSION_STRING "0.1.2"
+
+
 void TTGraphicsInit();
 
 #endif // __TTGRAPHICS_H__
