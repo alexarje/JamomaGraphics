@@ -7,7 +7,7 @@
  * http://www.gnu.org/licenses/lgpl.html 
  */
 
-#include "TTBlueAPI.h"
+#include "TTFoundationAPI.h"
 #include "TTGraphicsWindow.h"
 #include "TTGraphicsContext.h"
 #include "TTGraphicsSurface.h"
@@ -27,7 +27,7 @@ extern "C" TT_EXTENSION_EXPORT TTObjectPtr instantiateTTGraphicsObject(TTSymbolP
 
 extern "C" TT_EXTENSION_EXPORT TTErr loadTTExtension(void)
 {
-	TTBlueInit();
+	TTFoundationInit();
 
 	//TTClassRegister(TT("TTGraphicsWindow"),		"graphics",	&instantiateTTGraphicsObject);
 	//TTClassRegister(TT("TTGraphicsContext"),	"graphics",	&instantiateTTGraphicsObject);

@@ -10,7 +10,7 @@
 #ifndef __TTGRAPHICSCONTEXT_H__
 #define __TTGRAPHICSCONTEXT_H__
 
-#include "TTBlueAPI.h"
+#include "TTFoundationAPI.h"
 
 #ifdef TTGRAPHICS_LIBRARY
 #include "cairo.h"

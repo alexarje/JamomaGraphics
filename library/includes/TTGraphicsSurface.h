@@ -9,7 +9,7 @@
 #ifndef __TTGRAPHICSSURFACE_H__
 #define __TTGRAPHICSSURFACE_H__
 
-#include "TTBlueAPI.h"
+#include "TTFoundationAPI.h"
 
 #ifdef TT_PLATFORM_MAC
 #include "cairo-quartz.h"

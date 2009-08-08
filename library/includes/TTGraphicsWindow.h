@@ -9,7 +9,7 @@
 #ifndef __TTGRAPHICSWINDOW_H__
 #define __TTGRAPHICSWINDOW_H__
 
-#include "TTBlueAPI.h"
+#include "TTFoundationAPI.h"
 #include "TTGraphicsContext.h"
 
 #ifdef TT_PLATFORM_MAC
