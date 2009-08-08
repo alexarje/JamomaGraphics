@@ -6,7 +6,7 @@ COMPONENT_ENTRY(BlueButter)
 BlueButter::BlueButter(AudioUnit component)
 	: AUEffectBase(component)
 {	
-	TTBlueInit();
+	TTDSPInit();
 	
 	CreateElements();
 	Globals()->UseIndexedParameters(kNumberOfParameters);

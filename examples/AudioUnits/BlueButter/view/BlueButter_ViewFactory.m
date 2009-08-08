@@ -32,7 +32,7 @@ static bool sInit = false;
 //	rect.size.height = 200.0;
     
 	if (!sInit) {
-		TTBlueInit();
+		TTGraphicsInit();
 		MyAUPainter::registerClass();
 		sInit = true;
 	}

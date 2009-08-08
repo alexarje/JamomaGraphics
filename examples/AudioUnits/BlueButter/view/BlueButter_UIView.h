@@ -2,7 +2,7 @@
 #import <AudioUnit/AudioUnit.h>
 #import <AudioToolbox/AudioToolbox.h>
 
-#import "TTBlueAPI.h"
+#import "TTGraphics.h"
 
 
 const long kAudioUnitCustomProperty_FilterFrequencyResponse = 'prHz';
@@ -27,9 +27,9 @@ const long kAudioUnitCustomProperty_FilterFrequencyResponse = 'prHz';
 - (void) setAU:(AudioUnit)inAU;
 - (void) awakeFromNib;
 
-#pragma mark ____ INTERFACE ACTIONS ____
-- (IBAction) cutoffFrequencyChanged:(id)sender;
-- (IBAction) resonanceChanged:(id)sender;
+//#pragma mark ____ INTERFACE ACTIONS ____
+//- (IBAction) cutoffFrequencyChanged:(id)sender;
+//- (IBAction) resonanceChanged:(id)sender;
 
 #pragma mark ____ PRIVATE FUNCTIONS
 - (void)priv_synchronizeUIWithParameterValues;

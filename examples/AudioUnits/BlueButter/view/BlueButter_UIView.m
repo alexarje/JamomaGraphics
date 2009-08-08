@@ -196,8 +196,8 @@ void EventListenerDispatcher (void *inRefCon, void *inObject, const AudioUnitEve
 //	float resonance = [graphView getRes];
 //	float cutoff	= [graphView getFreq];
 	
-	AudioUnitParameter cutoffParameter		= {mAU, kFilterParam_CutoffFrequency, kAudioUnitScope_Global, 0 };
-	AudioUnitParameter resonanceParameter	= {mAU, kFilterParam_Resonance, kAudioUnitScope_Global, 0 };
+//	AudioUnitParameter cutoffParameter		= {mAU, kFilterParam_CutoffFrequency, kAudioUnitScope_Global, 0 };
+//	AudioUnitParameter resonanceParameter	= {mAU, kFilterParam_Resonance, kAudioUnitScope_Global, 0 };
 	
 //	NSAssert(	AUParameterSet(mAUEventListener, cutoffFrequencyField, &cutoffParameter, (Float32)cutoff, 0) == noErr,
   //              @"[AppleDemoFilter_UIView cutoffFrequencyChanged:] AUParameterSet()");
