@@ -253,7 +253,7 @@ TTErr SpatDisplay::mouseMoved(const TTValue& v)
 
 extern "C" TT_EXTENSION_EXPORT TTErr loadTTExtension(void)
 {
-	TTBlueInit();
+	TTGraphicsInit();
 	SpatDisplay::registerClass();
 	return kTTErrNone;
 }

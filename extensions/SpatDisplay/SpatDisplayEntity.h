@@ -7,8 +7,7 @@
  * http://www.gnu.org/licenses/lgpl.html 
  */
 
-#include "TTBlueAPI.h"
-#include "TTGraphicsContext.h"
+#include "TTGraphics.h"
 
 
 enum SpatDisplayEntityType {

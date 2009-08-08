@@ -7,7 +7,7 @@
  * http://www.gnu.org/licenses/lgpl.html 
  */
 
-#include "TTBlueAPI.h"
+#include "TTFoundationAPI.h"
 #include "TTGraphicsContext.h"
 
 

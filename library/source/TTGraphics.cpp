@@ -12,30 +12,12 @@
 #include "TTGraphicsContext.h"
 #include "TTGraphicsSurface.h"
 
-/*
-extern "C" TT_EXTENSION_EXPORT TTObjectPtr instantiateTTGraphicsObject(TTSymbolPtr className, TTValue& arguments)
-{	
-	if(className == TT("TTGraphicsWindow"))
-		return new TTGraphicsWindow(arguments);
-	else if(className == TT("TTGraphicsContext"))
-		return new TTGraphicsContext(arguments);
-	else if(className == TT("TTGraphicsSurface"))
-		return new TTGraphicsSurface(arguments);
-	return NULL;
-}
-*/
 
-extern "C" TT_EXTENSION_EXPORT TTErr loadTTExtension(void)
+void TTGraphicsInit()
 {
 	TTFoundationInit();
-
-	//TTClassRegister(TT("TTGraphicsWindow"),		"graphics",	&instantiateTTGraphicsObject);
-	//TTClassRegister(TT("TTGraphicsContext"),	"graphics",	&instantiateTTGraphicsObject);
-	//TTClassRegister(TT("TTGraphicsSurface"),	"graphics",	&instantiateTTGraphicsObject);
 	TTGraphicsWindow::registerClass();
 	TTGraphicsContext::registerClass();
-	TTGraphicsSurface::registerClass();
-	
-	return kTTErrNone;
+	TTGraphicsSurface::registerClass();	
 }
 

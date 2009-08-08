@@ -76,13 +76,13 @@ public:
 #endif
 	
 	
-	void selectFontFace(TTCString family, TTGraphicsFontSlant slant, TTGraphicsFontWeight weight);
+	void selectFontFace(TTImmutableCString family, TTGraphicsFontSlant slant, TTGraphicsFontWeight weight);
 	void setFontSize(double size);
 	void setSourceRGB(double r, double g, double b);
 	void setSourceRGBA(double r, double g, double b, double a);
 	void moveTo(double x, double y);
 	void lineTo(double x, double y);
-	void showText(TTCString text);
+	void showText(TTImmutableCString text);
 	
 	void setLineWidth(double width);
 	void arc(double xc, double yc, double radius, double angle1, double angle2);

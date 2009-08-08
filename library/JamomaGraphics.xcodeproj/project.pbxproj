@@ -44,6 +44,7 @@
 		22E3849F102867DF002000A9 /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpixman-1.a"; path = "cairo-lib/libpixman-1.a"; sourceTree = "<group>"; };
 		22E384D91028694B002000A9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		22EB3758102DE990006D027A /* JamomaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JamomaFoundation.framework; path = ../../Foundation/library/build/UninstalledProducts/JamomaFoundation.framework; sourceTree = SOURCE_ROOT; };
+		22EB3796102DED09006D027A /* TTGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGraphics.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 		22E3848F102867B8002000A9 /* includes */ = {
 			isa = PBXGroup;
 			children = (
+				22EB3796102DED09006D027A /* TTGraphics.h */,
 				22E38490102867B8002000A9 /* TTGraphicsContext.h */,
 				22E38491102867B8002000A9 /* TTGraphicsSurface.h */,
 				22E38492102867B8002000A9 /* TTGraphicsWindow.h */,

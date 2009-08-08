@@ -37,7 +37,7 @@ TTGraphicsContext::~TTGraphicsContext()
 
 
 
-void TTGraphicsContext::selectFontFace(TTCString family, TTGraphicsFontSlant slant, TTGraphicsFontWeight weight)
+void TTGraphicsContext::selectFontFace(TTImmutableCString family, TTGraphicsFontSlant slant, TTGraphicsFontWeight weight)
 {
 	cairo_select_font_face(cairoContext, family, (cairo_font_slant_t)slant, (cairo_font_weight_t)weight);
 }
@@ -67,7 +67,7 @@ void TTGraphicsContext::lineTo(double x, double y)
 	cairo_line_to(cairoContext, x, y);
 }
 
-void TTGraphicsContext::showText(TTCString text)
+void TTGraphicsContext::showText(TTImmutableCString text)
 {
 	cairo_show_text(cairoContext, text);
 }
