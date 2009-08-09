@@ -213,6 +213,7 @@
 					"\"$(SRCROOT)/../../../../Foundation/library/build/UninstalledProducts\"",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = TT_DEBUG;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../extensions/TTGraphics/build/Development\"",
