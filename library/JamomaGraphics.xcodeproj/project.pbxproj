@@ -16,6 +16,10 @@
 		22E384A1102867DF002000A9 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E3849F102867DF002000A9 /* libpixman-1.a */; };
 		22E384DA1028694B002000A9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E384D91028694B002000A9 /* Cocoa.framework */; };
 		22EB3759102DE990006D027A /* JamomaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EB3758102DE990006D027A /* JamomaFoundation.framework */; };
+		22EB3BE8102F0C9C006D027A /* TTGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EB3796102DED09006D027A /* TTGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22EB3BE9102F0C9C006D027A /* TTGraphicsContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E38490102867B8002000A9 /* TTGraphicsContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22EB3BEA102F0C9C006D027A /* TTGraphicsSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E38491102867B8002000A9 /* TTGraphicsSurface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22EB3BEB102F0C9C006D027A /* TTGraphicsWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E38492102867B8002000A9 /* TTGraphicsWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,12 +143,27 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		22EB3BF6102F0CBC006D027A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EB3BE8102F0C9C006D027A /* TTGraphics.h in Headers */,
+				22EB3BE9102F0C9C006D027A /* TTGraphicsContext.h in Headers */,
+				22EB3BEA102F0C9C006D027A /* TTGraphicsSurface.h in Headers */,
+				22EB3BEB102F0C9C006D027A /* TTGraphicsWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		222B177B0F1D4009008B1A46 /* JamomaGraphics */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 222B17FD0F1D4009008B1A46 /* Build configuration list for PBXNativeTarget "JamomaGraphics" */;
 			buildPhases = (
 				222B17B90F1D4009008B1A46 /* Resources */,
+				22EB3BF6102F0CBC006D027A /* Headers */,
 				222B17BA0F1D4009008B1A46 /* Sources */,
 				222B17F50F1D4009008B1A46 /* Frameworks */,
 				22CC01940FDFDF8C0024A915 /* ShellScript */,
